@@ -131,10 +131,8 @@ export function bot() {
                 for (const [key, func] of Object.entries(initCommands)) {
                     /*  verificando se o cliente enviou algum comando válido e atribuindo o comando na variável command
                         se não, mantém-se o valor da variável command do bloco if */
-                    console.log(`key: ${key} -- func: ${func}`)
                     if (func(message) === true) {
                         command = key as keyof typeof manageChat
-                        log('cheguei aqui')
                         break
                     }
                 }
