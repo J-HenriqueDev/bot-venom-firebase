@@ -378,7 +378,7 @@ const manageChat = {
             name: contact.notifyName,
             // caso a propriedade 'imgFull' do objeto 'profilePicThumbObj', retorne um valor inválido,
             // preencheremos o campo com uma string vazia
-            profilePicThum: contact.profilePicThumbObj.imgFull || '',
+            profilePicThum: contact.profilePicThumbObj.imgFull ? contact.profilePicThumbObj.imgFull : '',
             isBusiness: contact.isBusiness
         }
         // gravando dados no firebase
