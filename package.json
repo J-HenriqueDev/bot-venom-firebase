@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start:app": "node -r dotenv/config ./dist/index.js",
-    "dev": "clear && ts-node -r dotenv/config --files --transpile-only index.ts",
-    "test": "clear && tsnd --respawn --transpile-only -r dotenv/config --ignore-watch node_modules ./z_tests/test.ts"
+    "dev": "ts-node -r dotenv/config --files --transpile-only index.ts",
+    "test": "tsnd --respawn --transpile-only -r dotenv/config --ignore-watch node_modules ./z_tests/test.ts"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
