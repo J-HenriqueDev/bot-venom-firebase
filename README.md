@@ -19,13 +19,17 @@ Esta aplicação tem como objetivo o atendimento automatizado e o geresnciamento
 
 ### Para executar o projeto
 1. execute o comando: ```git clone https://github.com/jrCleber/bot-venom-firebase.git```
-2. instale as dependências:
+2. crie um novo projeto no firebase, selecione o firestore e configure o banco de dados
+    * depois clique em **configurações do projeto -> contae e serviços -> gerar uma nova chave privada**
+    * salve a chave na pasta **keys** com o seguinte nome: **serviceAccountKey.json**
+3. instale as dependências:
     * com gerenciador de pacores **yarn**, execute o comando: ```yarn```
     * com o **npm**, execute o comando: ```npm install```
-3. execute o comando ```tsc``` para compilar os arquivos typescript
-4. para iniciar o aplicativo:
+4. execute o comando ```tsc``` para compilar os arquivos typescript
+5. para iniciar o aplicativo:
     * com o **yarn** execute: ```yarn start:app```
     * com o **npm** execute: ```npm run start:app```
+6. Tudo certo agora. **DIVIRTA-SE**!
 <hr>
 
 Essa aplicação não realiza o gerenciamento de pagamentos, roteamentos para atendentes e edições em gerais.
