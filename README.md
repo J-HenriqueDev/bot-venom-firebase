@@ -21,7 +21,7 @@ Esta aplicação tem como objetivo o atendimento automatizado e o geresnciamento
 1. execute o comando: ```git clone https://github.com/jrCleber/bot-venom-firebase.git```
 2. instale as dependências:
     * com gerenciador de pacores **yarn**, execute o comando: ```yarn```
-    * com o **npm**, execute o comandoÇ ```npm install```
+    * com o **npm**, execute o comando: ```npm install```
 3. execute o comando ```tsc``` para compilar os arquivos typescript
 4. para iniciar o aplicativo:
     * com o **yarn** execute: ```yarn start:app```
